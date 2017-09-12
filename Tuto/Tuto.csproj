@@ -47,7 +47,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\LemonWayAPI\Reference.cs">
+    <Compile Include="Service References\PayohAPI\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -55,152 +55,152 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Service References\LemonWayAPI\Service1.wsdl" />
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.CreatePaymentFormResponse.datasource">
+    <None Include="Service References\PayohAPI\Service1.wsdl" />
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.CreatePaymentFormResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.CreateVCCResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.CreateVCCResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.DisablePaymentFormResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.DisablePaymentFormResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.FastPayResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.FastPayResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetBalancesResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetBalancesResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetChargebacksResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetChargebacksResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetCompletedPaymentFormResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetCompletedPaymentFormResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetKycStatusResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetKycStatusResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetMoneyInChequeDetailsResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetMoneyInChequeDetailsResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetMoneyInIBANDetailsResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetMoneyInIBANDetailsResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetMoneyInSddResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetMoneyInSddResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetMoneyInTransDetailsResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetMoneyInTransDetailsResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetMoneyOutTransDetailsResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetMoneyOutTransDetailsResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetPaymentDetailsResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetPaymentDetailsResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetWalletDetailsResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetWalletDetailsResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetWalletTransHistoryResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetWalletTransHistoryResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.GetWizypayAdsResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.GetWizypayAdsResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyIn3DAuthenticateResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyIn3DAuthenticateResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyIn3DConfirmResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyIn3DConfirmResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyIn3DInitResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyIn3DInitResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInChequeInitResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInChequeInitResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInIDealConfirmResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInIDealConfirmResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInIDealInitResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInIDealInitResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInMbwayInitResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInMbwayInitResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInMobilePayInitResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInMobilePayInitResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInMultibancoInitResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInMultibancoInitResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInNeosurfResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInNeosurfResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInPayshopInitResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInPayshopInitResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInPayTrailInitResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInPayTrailInitResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInSddInitResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInSddInitResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInSofortInitResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInSofortInitResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInValidateResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInValidateResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInWebInitResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInWebInitResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyInWithCardIdResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyInWithCardIdResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.MoneyOutResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.MoneyOutResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.RefundMoneyInResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.RefundMoneyInResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.RegisterCardResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.RegisterCardResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.RegisterIBANExtendedResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.RegisterIBANExtendedResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.RegisterIBANResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.RegisterIBANResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.RegisterSddMandateResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.RegisterSddMandateResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.RegisterWalletResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.RegisterWalletResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.SendPaymentResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.SendPaymentResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.SignDocumentInitResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.SignDocumentInitResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.UnregisterCardResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.UnregisterCardResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.UnregisterSddMandateResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.UnregisterSddMandateResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.UpdateWalletDetailsResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.UpdateWalletDetailsResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.UpdateWalletStatusResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.UpdateWalletStatusResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\LemonWayAPI\Tuto.LemonWayAPI.UploadFileResponse.datasource">
+    <None Include="Service References\PayohAPI\Tuto.PayohAPI.UploadFileResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
   </ItemGroup>
@@ -208,22 +208,22 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\LemonWayAPI\" />
+    <WCFMetadataStorage Include="Service References\PayohAPI\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\LemonWayAPI\configuration91.svcinfo" />
+    <None Include="Service References\PayohAPI\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\LemonWayAPI\configuration.svcinfo" />
+    <None Include="Service References\PayohAPI\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\LemonWayAPI\Reference.svcmap">
+    <None Include="Service References\PayohAPI\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\LemonWayAPI\Service1.disco" />
+    <None Include="Service References\PayohAPI\Service1.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

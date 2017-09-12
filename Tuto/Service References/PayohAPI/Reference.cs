@@ -8,404 +8,404 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tuto.LemonWayAPI {
+namespace Tuto.PayohAPI {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="Service_mb_xml", ConfigurationName="LemonWayAPI.Service_mb_xmlSoap")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="Service_mb_xml", ConfigurationName="PayohAPI.Service_mb_xmlSoap")]
     public interface Service_mb_xmlSoap {
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/RegisterWallet", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.RegisterWalletResponse RegisterWallet(Tuto.LemonWayAPI.RegisterWalletRequest request);
+        Tuto.PayohAPI.RegisterWalletResponse RegisterWallet(Tuto.PayohAPI.RegisterWalletRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/RegisterWallet", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.RegisterWalletResponse> RegisterWalletAsync(Tuto.LemonWayAPI.RegisterWalletRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.RegisterWalletResponse> RegisterWalletAsync(Tuto.PayohAPI.RegisterWalletRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/FastPay", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.FastPayResponse FastPay(Tuto.LemonWayAPI.FastPayRequest request);
+        Tuto.PayohAPI.FastPayResponse FastPay(Tuto.PayohAPI.FastPayRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/FastPay", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.FastPayResponse> FastPayAsync(Tuto.LemonWayAPI.FastPayRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.FastPayResponse> FastPayAsync(Tuto.PayohAPI.FastPayRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/UpdateWalletDetails", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.UpdateWalletDetailsResponse UpdateWalletDetails(Tuto.LemonWayAPI.UpdateWalletDetailsRequest request);
+        Tuto.PayohAPI.UpdateWalletDetailsResponse UpdateWalletDetails(Tuto.PayohAPI.UpdateWalletDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/UpdateWalletDetails", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.UpdateWalletDetailsResponse> UpdateWalletDetailsAsync(Tuto.LemonWayAPI.UpdateWalletDetailsRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.UpdateWalletDetailsResponse> UpdateWalletDetailsAsync(Tuto.PayohAPI.UpdateWalletDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/UpdateWalletStatus", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.UpdateWalletStatusResponse UpdateWalletStatus(Tuto.LemonWayAPI.UpdateWalletStatusRequest request);
+        Tuto.PayohAPI.UpdateWalletStatusResponse UpdateWalletStatus(Tuto.PayohAPI.UpdateWalletStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/UpdateWalletStatus", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.UpdateWalletStatusResponse> UpdateWalletStatusAsync(Tuto.LemonWayAPI.UpdateWalletStatusRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.UpdateWalletStatusResponse> UpdateWalletStatusAsync(Tuto.PayohAPI.UpdateWalletStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetWalletDetails", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetWalletDetailsResponse GetWalletDetails(Tuto.LemonWayAPI.GetWalletDetailsRequest request);
+        Tuto.PayohAPI.GetWalletDetailsResponse GetWalletDetails(Tuto.PayohAPI.GetWalletDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetWalletDetails", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetWalletDetailsResponse> GetWalletDetailsAsync(Tuto.LemonWayAPI.GetWalletDetailsRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetWalletDetailsResponse> GetWalletDetailsAsync(Tuto.PayohAPI.GetWalletDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyIn", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInResponse MoneyIn(Tuto.LemonWayAPI.MoneyInRequest request);
+        Tuto.PayohAPI.MoneyInResponse MoneyIn(Tuto.PayohAPI.MoneyInRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyIn", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInResponse> MoneyInAsync(Tuto.LemonWayAPI.MoneyInRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInResponse> MoneyInAsync(Tuto.PayohAPI.MoneyInRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyIn3DInit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyIn3DInitResponse MoneyIn3DInit(Tuto.LemonWayAPI.MoneyIn3DInitRequest request);
+        Tuto.PayohAPI.MoneyIn3DInitResponse MoneyIn3DInit(Tuto.PayohAPI.MoneyIn3DInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyIn3DInit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyIn3DInitResponse> MoneyIn3DInitAsync(Tuto.LemonWayAPI.MoneyIn3DInitRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyIn3DInitResponse> MoneyIn3DInitAsync(Tuto.PayohAPI.MoneyIn3DInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyIn3DConfirm", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyIn3DConfirmResponse MoneyIn3DConfirm(Tuto.LemonWayAPI.MoneyIn3DConfirmRequest request);
+        Tuto.PayohAPI.MoneyIn3DConfirmResponse MoneyIn3DConfirm(Tuto.PayohAPI.MoneyIn3DConfirmRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyIn3DConfirm", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyIn3DConfirmResponse> MoneyIn3DConfirmAsync(Tuto.LemonWayAPI.MoneyIn3DConfirmRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyIn3DConfirmResponse> MoneyIn3DConfirmAsync(Tuto.PayohAPI.MoneyIn3DConfirmRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInWebInit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInWebInitResponse MoneyInWebInit(Tuto.LemonWayAPI.MoneyInWebInitRequest request);
+        Tuto.PayohAPI.MoneyInWebInitResponse MoneyInWebInit(Tuto.PayohAPI.MoneyInWebInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInWebInit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInWebInitResponse> MoneyInWebInitAsync(Tuto.LemonWayAPI.MoneyInWebInitRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInWebInitResponse> MoneyInWebInitAsync(Tuto.PayohAPI.MoneyInWebInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/RegisterCard", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.RegisterCardResponse RegisterCard(Tuto.LemonWayAPI.RegisterCardRequest request);
+        Tuto.PayohAPI.RegisterCardResponse RegisterCard(Tuto.PayohAPI.RegisterCardRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/RegisterCard", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.RegisterCardResponse> RegisterCardAsync(Tuto.LemonWayAPI.RegisterCardRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.RegisterCardResponse> RegisterCardAsync(Tuto.PayohAPI.RegisterCardRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/UnregisterCard", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.UnregisterCardResponse UnregisterCard(Tuto.LemonWayAPI.UnregisterCardRequest request);
+        Tuto.PayohAPI.UnregisterCardResponse UnregisterCard(Tuto.PayohAPI.UnregisterCardRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/UnregisterCard", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.UnregisterCardResponse> UnregisterCardAsync(Tuto.LemonWayAPI.UnregisterCardRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.UnregisterCardResponse> UnregisterCardAsync(Tuto.PayohAPI.UnregisterCardRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInWithCardId", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInWithCardIdResponse MoneyInWithCardId(Tuto.LemonWayAPI.MoneyInWithCardIdRequest request);
+        Tuto.PayohAPI.MoneyInWithCardIdResponse MoneyInWithCardId(Tuto.PayohAPI.MoneyInWithCardIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInWithCardId", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInWithCardIdResponse> MoneyInWithCardIdAsync(Tuto.LemonWayAPI.MoneyInWithCardIdRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInWithCardIdResponse> MoneyInWithCardIdAsync(Tuto.PayohAPI.MoneyInWithCardIdRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInValidate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInValidateResponse MoneyInValidate(Tuto.LemonWayAPI.MoneyInValidateRequest request);
+        Tuto.PayohAPI.MoneyInValidateResponse MoneyInValidate(Tuto.PayohAPI.MoneyInValidateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInValidate", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInValidateResponse> MoneyInValidateAsync(Tuto.LemonWayAPI.MoneyInValidateRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInValidateResponse> MoneyInValidateAsync(Tuto.PayohAPI.MoneyInValidateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/RegisterIBAN", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.RegisterIBANResponse RegisterIBAN(Tuto.LemonWayAPI.RegisterIBANRequest request);
+        Tuto.PayohAPI.RegisterIBANResponse RegisterIBAN(Tuto.PayohAPI.RegisterIBANRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/RegisterIBAN", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.RegisterIBANResponse> RegisterIBANAsync(Tuto.LemonWayAPI.RegisterIBANRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.RegisterIBANResponse> RegisterIBANAsync(Tuto.PayohAPI.RegisterIBANRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/RegisterIBANExtended", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.RegisterIBANExtendedResponse RegisterIBANExtended(Tuto.LemonWayAPI.RegisterIBANExtendedRequest request);
+        Tuto.PayohAPI.RegisterIBANExtendedResponse RegisterIBANExtended(Tuto.PayohAPI.RegisterIBANExtendedRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/RegisterIBANExtended", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.RegisterIBANExtendedResponse> RegisterIBANExtendedAsync(Tuto.LemonWayAPI.RegisterIBANExtendedRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.RegisterIBANExtendedResponse> RegisterIBANExtendedAsync(Tuto.PayohAPI.RegisterIBANExtendedRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyOut", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyOutResponse MoneyOut(Tuto.LemonWayAPI.MoneyOutRequest request);
+        Tuto.PayohAPI.MoneyOutResponse MoneyOut(Tuto.PayohAPI.MoneyOutRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyOut", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyOutResponse> MoneyOutAsync(Tuto.LemonWayAPI.MoneyOutRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyOutResponse> MoneyOutAsync(Tuto.PayohAPI.MoneyOutRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetPaymentDetails", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetPaymentDetailsResponse GetPaymentDetails(Tuto.LemonWayAPI.GetPaymentDetailsRequest request);
+        Tuto.PayohAPI.GetPaymentDetailsResponse GetPaymentDetails(Tuto.PayohAPI.GetPaymentDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetPaymentDetails", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetPaymentDetailsResponse> GetPaymentDetailsAsync(Tuto.LemonWayAPI.GetPaymentDetailsRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetPaymentDetailsResponse> GetPaymentDetailsAsync(Tuto.PayohAPI.GetPaymentDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetMoneyInTransDetails", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetMoneyInTransDetailsResponse GetMoneyInTransDetails(Tuto.LemonWayAPI.GetMoneyInTransDetailsRequest request);
+        Tuto.PayohAPI.GetMoneyInTransDetailsResponse GetMoneyInTransDetails(Tuto.PayohAPI.GetMoneyInTransDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetMoneyInTransDetails", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetMoneyInTransDetailsResponse> GetMoneyInTransDetailsAsync(Tuto.LemonWayAPI.GetMoneyInTransDetailsRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetMoneyInTransDetailsResponse> GetMoneyInTransDetailsAsync(Tuto.PayohAPI.GetMoneyInTransDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetMoneyOutTransDetails", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetMoneyOutTransDetailsResponse GetMoneyOutTransDetails(Tuto.LemonWayAPI.GetMoneyOutTransDetailsRequest request);
+        Tuto.PayohAPI.GetMoneyOutTransDetailsResponse GetMoneyOutTransDetails(Tuto.PayohAPI.GetMoneyOutTransDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetMoneyOutTransDetails", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetMoneyOutTransDetailsResponse> GetMoneyOutTransDetailsAsync(Tuto.LemonWayAPI.GetMoneyOutTransDetailsRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetMoneyOutTransDetailsResponse> GetMoneyOutTransDetailsAsync(Tuto.PayohAPI.GetMoneyOutTransDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/UploadFile", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.UploadFileResponse UploadFile(Tuto.LemonWayAPI.UploadFileRequest request);
+        Tuto.PayohAPI.UploadFileResponse UploadFile(Tuto.PayohAPI.UploadFileRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/UploadFile", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.UploadFileResponse> UploadFileAsync(Tuto.LemonWayAPI.UploadFileRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.UploadFileResponse> UploadFileAsync(Tuto.PayohAPI.UploadFileRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetKycStatus", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetKycStatusResponse GetKycStatus(Tuto.LemonWayAPI.GetKycStatusRequest request);
+        Tuto.PayohAPI.GetKycStatusResponse GetKycStatus(Tuto.PayohAPI.GetKycStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetKycStatus", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetKycStatusResponse> GetKycStatusAsync(Tuto.LemonWayAPI.GetKycStatusRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetKycStatusResponse> GetKycStatusAsync(Tuto.PayohAPI.GetKycStatusRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetMoneyInIBANDetails", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetMoneyInIBANDetailsResponse GetMoneyInIBANDetails(Tuto.LemonWayAPI.GetMoneyInIBANDetailsRequest request);
+        Tuto.PayohAPI.GetMoneyInIBANDetailsResponse GetMoneyInIBANDetails(Tuto.PayohAPI.GetMoneyInIBANDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetMoneyInIBANDetails", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetMoneyInIBANDetailsResponse> GetMoneyInIBANDetailsAsync(Tuto.LemonWayAPI.GetMoneyInIBANDetailsRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetMoneyInIBANDetailsResponse> GetMoneyInIBANDetailsAsync(Tuto.PayohAPI.GetMoneyInIBANDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/RefundMoneyIn", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.RefundMoneyInResponse RefundMoneyIn(Tuto.LemonWayAPI.RefundMoneyInRequest request);
+        Tuto.PayohAPI.RefundMoneyInResponse RefundMoneyIn(Tuto.PayohAPI.RefundMoneyInRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/RefundMoneyIn", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.RefundMoneyInResponse> RefundMoneyInAsync(Tuto.LemonWayAPI.RefundMoneyInRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.RefundMoneyInResponse> RefundMoneyInAsync(Tuto.PayohAPI.RefundMoneyInRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetBalances", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetBalancesResponse GetBalances(Tuto.LemonWayAPI.GetBalancesRequest request);
+        Tuto.PayohAPI.GetBalancesResponse GetBalances(Tuto.PayohAPI.GetBalancesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetBalances", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetBalancesResponse> GetBalancesAsync(Tuto.LemonWayAPI.GetBalancesRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetBalancesResponse> GetBalancesAsync(Tuto.PayohAPI.GetBalancesRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyIn3DAuthenticate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyIn3DAuthenticateResponse MoneyIn3DAuthenticate(Tuto.LemonWayAPI.MoneyIn3DAuthenticateRequest request);
+        Tuto.PayohAPI.MoneyIn3DAuthenticateResponse MoneyIn3DAuthenticate(Tuto.PayohAPI.MoneyIn3DAuthenticateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyIn3DAuthenticate", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyIn3DAuthenticateResponse> MoneyIn3DAuthenticateAsync(Tuto.LemonWayAPI.MoneyIn3DAuthenticateRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyIn3DAuthenticateResponse> MoneyIn3DAuthenticateAsync(Tuto.PayohAPI.MoneyIn3DAuthenticateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInIDealInit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInIDealInitResponse MoneyInIDealInit(Tuto.LemonWayAPI.MoneyInIDealInitRequest request);
+        Tuto.PayohAPI.MoneyInIDealInitResponse MoneyInIDealInit(Tuto.PayohAPI.MoneyInIDealInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInIDealInit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInIDealInitResponse> MoneyInIDealInitAsync(Tuto.LemonWayAPI.MoneyInIDealInitRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInIDealInitResponse> MoneyInIDealInitAsync(Tuto.PayohAPI.MoneyInIDealInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInIDealConfirm", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInIDealConfirmResponse MoneyInIDealConfirm(Tuto.LemonWayAPI.MoneyInIDealConfirmRequest request);
+        Tuto.PayohAPI.MoneyInIDealConfirmResponse MoneyInIDealConfirm(Tuto.PayohAPI.MoneyInIDealConfirmRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInIDealConfirm", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInIDealConfirmResponse> MoneyInIDealConfirmAsync(Tuto.LemonWayAPI.MoneyInIDealConfirmRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInIDealConfirmResponse> MoneyInIDealConfirmAsync(Tuto.PayohAPI.MoneyInIDealConfirmRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/RegisterSddMandate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.RegisterSddMandateResponse RegisterSddMandate(Tuto.LemonWayAPI.RegisterSddMandateRequest request);
+        Tuto.PayohAPI.RegisterSddMandateResponse RegisterSddMandate(Tuto.PayohAPI.RegisterSddMandateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/RegisterSddMandate", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.RegisterSddMandateResponse> RegisterSddMandateAsync(Tuto.LemonWayAPI.RegisterSddMandateRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.RegisterSddMandateResponse> RegisterSddMandateAsync(Tuto.PayohAPI.RegisterSddMandateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/UnregisterSddMandate", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.UnregisterSddMandateResponse UnregisterSddMandate(Tuto.LemonWayAPI.UnregisterSddMandateRequest request);
+        Tuto.PayohAPI.UnregisterSddMandateResponse UnregisterSddMandate(Tuto.PayohAPI.UnregisterSddMandateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/UnregisterSddMandate", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.UnregisterSddMandateResponse> UnregisterSddMandateAsync(Tuto.LemonWayAPI.UnregisterSddMandateRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.UnregisterSddMandateResponse> UnregisterSddMandateAsync(Tuto.PayohAPI.UnregisterSddMandateRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInSddInit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInSddInitResponse MoneyInSddInit(Tuto.LemonWayAPI.MoneyInSddInitRequest request);
+        Tuto.PayohAPI.MoneyInSddInitResponse MoneyInSddInit(Tuto.PayohAPI.MoneyInSddInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInSddInit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInSddInitResponse> MoneyInSddInitAsync(Tuto.LemonWayAPI.MoneyInSddInitRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInSddInitResponse> MoneyInSddInitAsync(Tuto.PayohAPI.MoneyInSddInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetMoneyInSdd", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetMoneyInSddResponse GetMoneyInSdd(Tuto.LemonWayAPI.GetMoneyInSddRequest request);
+        Tuto.PayohAPI.GetMoneyInSddResponse GetMoneyInSdd(Tuto.PayohAPI.GetMoneyInSddRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetMoneyInSdd", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetMoneyInSddResponse> GetMoneyInSddAsync(Tuto.LemonWayAPI.GetMoneyInSddRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetMoneyInSddResponse> GetMoneyInSddAsync(Tuto.PayohAPI.GetMoneyInSddRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetMoneyInChequeDetails", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetMoneyInChequeDetailsResponse GetMoneyInChequeDetails(Tuto.LemonWayAPI.GetMoneyInChequeDetailsRequest request);
+        Tuto.PayohAPI.GetMoneyInChequeDetailsResponse GetMoneyInChequeDetails(Tuto.PayohAPI.GetMoneyInChequeDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetMoneyInChequeDetails", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetMoneyInChequeDetailsResponse> GetMoneyInChequeDetailsAsync(Tuto.LemonWayAPI.GetMoneyInChequeDetailsRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetMoneyInChequeDetailsResponse> GetMoneyInChequeDetailsAsync(Tuto.PayohAPI.GetMoneyInChequeDetailsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetWalletTransHistory", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetWalletTransHistoryResponse GetWalletTransHistory(Tuto.LemonWayAPI.GetWalletTransHistoryRequest request);
+        Tuto.PayohAPI.GetWalletTransHistoryResponse GetWalletTransHistory(Tuto.PayohAPI.GetWalletTransHistoryRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetWalletTransHistory", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetWalletTransHistoryResponse> GetWalletTransHistoryAsync(Tuto.LemonWayAPI.GetWalletTransHistoryRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetWalletTransHistoryResponse> GetWalletTransHistoryAsync(Tuto.PayohAPI.GetWalletTransHistoryRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetChargebacks", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetChargebacksResponse GetChargebacks(Tuto.LemonWayAPI.GetChargebacksRequest request);
+        Tuto.PayohAPI.GetChargebacksResponse GetChargebacks(Tuto.PayohAPI.GetChargebacksRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetChargebacks", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetChargebacksResponse> GetChargebacksAsync(Tuto.LemonWayAPI.GetChargebacksRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetChargebacksResponse> GetChargebacksAsync(Tuto.PayohAPI.GetChargebacksRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInChequeInit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInChequeInitResponse MoneyInChequeInit(Tuto.LemonWayAPI.MoneyInChequeInitRequest request);
+        Tuto.PayohAPI.MoneyInChequeInitResponse MoneyInChequeInit(Tuto.PayohAPI.MoneyInChequeInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInChequeInit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInChequeInitResponse> MoneyInChequeInitAsync(Tuto.LemonWayAPI.MoneyInChequeInitRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInChequeInitResponse> MoneyInChequeInitAsync(Tuto.PayohAPI.MoneyInChequeInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/SignDocumentInit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.SignDocumentInitResponse SignDocumentInit(Tuto.LemonWayAPI.SignDocumentInitRequest request);
+        Tuto.PayohAPI.SignDocumentInitResponse SignDocumentInit(Tuto.PayohAPI.SignDocumentInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/SignDocumentInit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.SignDocumentInitResponse> SignDocumentInitAsync(Tuto.LemonWayAPI.SignDocumentInitRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.SignDocumentInitResponse> SignDocumentInitAsync(Tuto.PayohAPI.SignDocumentInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/CreateVCC", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.CreateVCCResponse CreateVCC(Tuto.LemonWayAPI.CreateVCCRequest request);
+        Tuto.PayohAPI.CreateVCCResponse CreateVCC(Tuto.PayohAPI.CreateVCCRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/CreateVCC", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.CreateVCCResponse> CreateVCCAsync(Tuto.LemonWayAPI.CreateVCCRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.CreateVCCResponse> CreateVCCAsync(Tuto.PayohAPI.CreateVCCRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInNeosurf", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInNeosurfResponse MoneyInNeosurf(Tuto.LemonWayAPI.MoneyInNeosurfRequest request);
+        Tuto.PayohAPI.MoneyInNeosurfResponse MoneyInNeosurf(Tuto.PayohAPI.MoneyInNeosurfRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInNeosurf", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInNeosurfResponse> MoneyInNeosurfAsync(Tuto.LemonWayAPI.MoneyInNeosurfRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInNeosurfResponse> MoneyInNeosurfAsync(Tuto.PayohAPI.MoneyInNeosurfRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetWizypayAds", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetWizypayAdsResponse GetWizypayAds(Tuto.LemonWayAPI.GetWizypayAdsRequest request);
+        Tuto.PayohAPI.GetWizypayAdsResponse GetWizypayAds(Tuto.PayohAPI.GetWizypayAdsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetWizypayAds", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetWizypayAdsResponse> GetWizypayAdsAsync(Tuto.LemonWayAPI.GetWizypayAdsRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetWizypayAdsResponse> GetWizypayAdsAsync(Tuto.PayohAPI.GetWizypayAdsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/SendPayment", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.SendPaymentResponse SendPayment(Tuto.LemonWayAPI.SendPaymentRequest request);
+        Tuto.PayohAPI.SendPaymentResponse SendPayment(Tuto.PayohAPI.SendPaymentRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/SendPayment", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.SendPaymentResponse> SendPaymentAsync(Tuto.LemonWayAPI.SendPaymentRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.SendPaymentResponse> SendPaymentAsync(Tuto.PayohAPI.SendPaymentRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInSofortInit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInSofortInitResponse MoneyInSofortInit(Tuto.LemonWayAPI.MoneyInSofortInitRequest request);
+        Tuto.PayohAPI.MoneyInSofortInitResponse MoneyInSofortInit(Tuto.PayohAPI.MoneyInSofortInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInSofortInit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInSofortInitResponse> MoneyInSofortInitAsync(Tuto.LemonWayAPI.MoneyInSofortInitRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInSofortInitResponse> MoneyInSofortInitAsync(Tuto.PayohAPI.MoneyInSofortInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInMultibancoInit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInMultibancoInitResponse MoneyInMultibancoInit(Tuto.LemonWayAPI.MoneyInMultibancoInitRequest request);
+        Tuto.PayohAPI.MoneyInMultibancoInitResponse MoneyInMultibancoInit(Tuto.PayohAPI.MoneyInMultibancoInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInMultibancoInit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInMultibancoInitResponse> MoneyInMultibancoInitAsync(Tuto.LemonWayAPI.MoneyInMultibancoInitRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInMultibancoInitResponse> MoneyInMultibancoInitAsync(Tuto.PayohAPI.MoneyInMultibancoInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInPayshopInit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInPayshopInitResponse MoneyInPayshopInit(Tuto.LemonWayAPI.MoneyInPayshopInitRequest request);
+        Tuto.PayohAPI.MoneyInPayshopInitResponse MoneyInPayshopInit(Tuto.PayohAPI.MoneyInPayshopInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInPayshopInit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInPayshopInitResponse> MoneyInPayshopInitAsync(Tuto.LemonWayAPI.MoneyInPayshopInitRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInPayshopInitResponse> MoneyInPayshopInitAsync(Tuto.PayohAPI.MoneyInPayshopInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInMbwayInit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInMbwayInitResponse MoneyInMbwayInit(Tuto.LemonWayAPI.MoneyInMbwayInitRequest request);
+        Tuto.PayohAPI.MoneyInMbwayInitResponse MoneyInMbwayInit(Tuto.PayohAPI.MoneyInMbwayInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInMbwayInit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInMbwayInitResponse> MoneyInMbwayInitAsync(Tuto.LemonWayAPI.MoneyInMbwayInitRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInMbwayInitResponse> MoneyInMbwayInitAsync(Tuto.PayohAPI.MoneyInMbwayInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInPayTrailInit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInPayTrailInitResponse MoneyInPayTrailInit(Tuto.LemonWayAPI.MoneyInPayTrailInitRequest request);
+        Tuto.PayohAPI.MoneyInPayTrailInitResponse MoneyInPayTrailInit(Tuto.PayohAPI.MoneyInPayTrailInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInPayTrailInit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInPayTrailInitResponse> MoneyInPayTrailInitAsync(Tuto.LemonWayAPI.MoneyInPayTrailInitRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInPayTrailInitResponse> MoneyInPayTrailInitAsync(Tuto.PayohAPI.MoneyInPayTrailInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInMobilePayInit", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.MoneyInMobilePayInitResponse MoneyInMobilePayInit(Tuto.LemonWayAPI.MoneyInMobilePayInitRequest request);
+        Tuto.PayohAPI.MoneyInMobilePayInitResponse MoneyInMobilePayInit(Tuto.PayohAPI.MoneyInMobilePayInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/MoneyInMobilePayInit", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInMobilePayInitResponse> MoneyInMobilePayInitAsync(Tuto.LemonWayAPI.MoneyInMobilePayInitRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInMobilePayInitResponse> MoneyInMobilePayInitAsync(Tuto.PayohAPI.MoneyInMobilePayInitRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/CreatePaymentForm", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.CreatePaymentFormResponse CreatePaymentForm(Tuto.LemonWayAPI.CreatePaymentFormRequest request);
+        Tuto.PayohAPI.CreatePaymentFormResponse CreatePaymentForm(Tuto.PayohAPI.CreatePaymentFormRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/CreatePaymentForm", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.CreatePaymentFormResponse> CreatePaymentFormAsync(Tuto.LemonWayAPI.CreatePaymentFormRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.CreatePaymentFormResponse> CreatePaymentFormAsync(Tuto.PayohAPI.CreatePaymentFormRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/DisablePaymentForm", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.DisablePaymentFormResponse DisablePaymentForm(Tuto.LemonWayAPI.DisablePaymentFormRequest request);
+        Tuto.PayohAPI.DisablePaymentFormResponse DisablePaymentForm(Tuto.PayohAPI.DisablePaymentFormRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/DisablePaymentForm", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.DisablePaymentFormResponse> DisablePaymentFormAsync(Tuto.LemonWayAPI.DisablePaymentFormRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.DisablePaymentFormResponse> DisablePaymentFormAsync(Tuto.PayohAPI.DisablePaymentFormRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetCompletedPaymentForm", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(WsResult))]
-        Tuto.LemonWayAPI.GetCompletedPaymentFormResponse GetCompletedPaymentForm(Tuto.LemonWayAPI.GetCompletedPaymentFormRequest request);
+        Tuto.PayohAPI.GetCompletedPaymentFormResponse GetCompletedPaymentForm(Tuto.PayohAPI.GetCompletedPaymentFormRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="Service_mb_xml/GetCompletedPaymentForm", ReplyAction="*")]
-        System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetCompletedPaymentFormResponse> GetCompletedPaymentFormAsync(Tuto.LemonWayAPI.GetCompletedPaymentFormRequest request);
+        System.Threading.Tasks.Task<Tuto.PayohAPI.GetCompletedPaymentFormResponse> GetCompletedPaymentFormAsync(Tuto.PayohAPI.GetCompletedPaymentFormRequest request);
     }
     
     /// <remarks/>
@@ -6734,12 +6734,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.RegisterWalletResult RegisterWalletResult;
+        public Tuto.PayohAPI.RegisterWalletResult RegisterWalletResult;
         
         public RegisterWalletResponse() {
         }
         
-        public RegisterWalletResponse(Tuto.LemonWayAPI.RegisterWalletResult RegisterWalletResult) {
+        public RegisterWalletResponse(Tuto.PayohAPI.RegisterWalletResult RegisterWalletResult) {
             this.RegisterWalletResult = RegisterWalletResult;
         }
     }
@@ -6858,12 +6858,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.FastPayResult FastPayResult;
+        public Tuto.PayohAPI.FastPayResult FastPayResult;
         
         public FastPayResponse() {
         }
         
-        public FastPayResponse(Tuto.LemonWayAPI.FastPayResult FastPayResult) {
+        public FastPayResponse(Tuto.PayohAPI.FastPayResult FastPayResult) {
             this.FastPayResult = FastPayResult;
         }
     }
@@ -7032,12 +7032,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.UpdateWalletDetailsResult UpdateWalletDetailsResult;
+        public Tuto.PayohAPI.UpdateWalletDetailsResult UpdateWalletDetailsResult;
         
         public UpdateWalletDetailsResponse() {
         }
         
-        public UpdateWalletDetailsResponse(Tuto.LemonWayAPI.UpdateWalletDetailsResult UpdateWalletDetailsResult) {
+        public UpdateWalletDetailsResponse(Tuto.PayohAPI.UpdateWalletDetailsResult UpdateWalletDetailsResult) {
             this.UpdateWalletDetailsResult = UpdateWalletDetailsResult;
         }
     }
@@ -7093,12 +7093,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.UpdateWalletStatusResult UpdateWalletStatusResult;
+        public Tuto.PayohAPI.UpdateWalletStatusResult UpdateWalletStatusResult;
         
         public UpdateWalletStatusResponse() {
         }
         
-        public UpdateWalletStatusResponse(Tuto.LemonWayAPI.UpdateWalletStatusResult UpdateWalletStatusResult) {
+        public UpdateWalletStatusResponse(Tuto.PayohAPI.UpdateWalletStatusResult UpdateWalletStatusResult) {
             this.UpdateWalletStatusResult = UpdateWalletStatusResult;
         }
     }
@@ -7154,12 +7154,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetWalletDetailsResult GetWalletDetailsResult;
+        public Tuto.PayohAPI.GetWalletDetailsResult GetWalletDetailsResult;
         
         public GetWalletDetailsResponse() {
         }
         
-        public GetWalletDetailsResponse(Tuto.LemonWayAPI.GetWalletDetailsResult GetWalletDetailsResult) {
+        public GetWalletDetailsResponse(Tuto.PayohAPI.GetWalletDetailsResult GetWalletDetailsResult) {
             this.GetWalletDetailsResult = GetWalletDetailsResult;
         }
     }
@@ -7278,12 +7278,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInResult MoneyInResult;
+        public Tuto.PayohAPI.MoneyInResult MoneyInResult;
         
         public MoneyInResponse() {
         }
         
-        public MoneyInResponse(Tuto.LemonWayAPI.MoneyInResult MoneyInResult) {
+        public MoneyInResponse(Tuto.PayohAPI.MoneyInResult MoneyInResult) {
             this.MoneyInResult = MoneyInResult;
         }
     }
@@ -7392,12 +7392,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyIn3DInitResult MoneyIn3DInitResult;
+        public Tuto.PayohAPI.MoneyIn3DInitResult MoneyIn3DInitResult;
         
         public MoneyIn3DInitResponse() {
         }
         
-        public MoneyIn3DInitResponse(Tuto.LemonWayAPI.MoneyIn3DInitResult MoneyIn3DInitResult) {
+        public MoneyIn3DInitResponse(Tuto.PayohAPI.MoneyIn3DInitResult MoneyIn3DInitResult) {
             this.MoneyIn3DInitResult = MoneyIn3DInitResult;
         }
     }
@@ -7501,12 +7501,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyIn3DConfirmResult MoneyIn3DConfirmResult;
+        public Tuto.PayohAPI.MoneyIn3DConfirmResult MoneyIn3DConfirmResult;
         
         public MoneyIn3DConfirmResponse() {
         }
         
-        public MoneyIn3DConfirmResponse(Tuto.LemonWayAPI.MoneyIn3DConfirmResult MoneyIn3DConfirmResult) {
+        public MoneyIn3DConfirmResponse(Tuto.PayohAPI.MoneyIn3DConfirmResult MoneyIn3DConfirmResult) {
             this.MoneyIn3DConfirmResult = MoneyIn3DConfirmResult;
         }
     }
@@ -7615,12 +7615,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInWebInitResult MoneyInWebInitResult;
+        public Tuto.PayohAPI.MoneyInWebInitResult MoneyInWebInitResult;
         
         public MoneyInWebInitResponse() {
         }
         
-        public MoneyInWebInitResponse(Tuto.LemonWayAPI.MoneyInWebInitResult MoneyInWebInitResult) {
+        public MoneyInWebInitResponse(Tuto.PayohAPI.MoneyInWebInitResult MoneyInWebInitResult) {
             this.MoneyInWebInitResult = MoneyInWebInitResult;
         }
     }
@@ -7692,12 +7692,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.RegisterCardResult RegisterCardResult;
+        public Tuto.PayohAPI.RegisterCardResult RegisterCardResult;
         
         public RegisterCardResponse() {
         }
         
-        public RegisterCardResponse(Tuto.LemonWayAPI.RegisterCardResult RegisterCardResult) {
+        public RegisterCardResponse(Tuto.PayohAPI.RegisterCardResult RegisterCardResult) {
             this.RegisterCardResult = RegisterCardResult;
         }
     }
@@ -7753,12 +7753,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.UnregisterCardResult UnregisterCardResult;
+        public Tuto.PayohAPI.UnregisterCardResult UnregisterCardResult;
         
         public UnregisterCardResponse() {
         }
         
-        public UnregisterCardResponse(Tuto.LemonWayAPI.UnregisterCardResult UnregisterCardResult) {
+        public UnregisterCardResponse(Tuto.PayohAPI.UnregisterCardResult UnregisterCardResult) {
             this.UnregisterCardResult = UnregisterCardResult;
         }
     }
@@ -7862,12 +7862,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInResult MoneyInResult;
+        public Tuto.PayohAPI.MoneyInResult MoneyInResult;
         
         public MoneyInWithCardIdResponse() {
         }
         
-        public MoneyInWithCardIdResponse(Tuto.LemonWayAPI.MoneyInResult MoneyInResult) {
+        public MoneyInWithCardIdResponse(Tuto.PayohAPI.MoneyInResult MoneyInResult) {
             this.MoneyInResult = MoneyInResult;
         }
     }
@@ -7931,12 +7931,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInValidateResult MoneyInValidateResult;
+        public Tuto.PayohAPI.MoneyInValidateResult MoneyInValidateResult;
         
         public MoneyInValidateResponse() {
         }
         
-        public MoneyInValidateResponse(Tuto.LemonWayAPI.MoneyInValidateResult MoneyInValidateResult) {
+        public MoneyInValidateResponse(Tuto.PayohAPI.MoneyInValidateResult MoneyInValidateResult) {
             this.MoneyInValidateResult = MoneyInValidateResult;
         }
     }
@@ -8016,12 +8016,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.RegisterIBANResult RegisterIBANResult;
+        public Tuto.PayohAPI.RegisterIBANResult RegisterIBANResult;
         
         public RegisterIBANResponse() {
         }
         
-        public RegisterIBANResponse(Tuto.LemonWayAPI.RegisterIBANResult RegisterIBANResult) {
+        public RegisterIBANResponse(Tuto.PayohAPI.RegisterIBANResult RegisterIBANResult) {
             this.RegisterIBANResult = RegisterIBANResult;
         }
     }
@@ -8135,12 +8135,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.RegisterIBANExtendedResult RegisterIBANExtendedResult;
+        public Tuto.PayohAPI.RegisterIBANExtendedResult RegisterIBANExtendedResult;
         
         public RegisterIBANExtendedResponse() {
         }
         
-        public RegisterIBANExtendedResponse(Tuto.LemonWayAPI.RegisterIBANExtendedResult RegisterIBANExtendedResult) {
+        public RegisterIBANExtendedResponse(Tuto.PayohAPI.RegisterIBANExtendedResult RegisterIBANExtendedResult) {
             this.RegisterIBANExtendedResult = RegisterIBANExtendedResult;
         }
     }
@@ -8212,12 +8212,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyOutResultObject MoneyOutResult;
+        public Tuto.PayohAPI.MoneyOutResultObject MoneyOutResult;
         
         public MoneyOutResponse() {
         }
         
-        public MoneyOutResponse(Tuto.LemonWayAPI.MoneyOutResultObject MoneyOutResult) {
+        public MoneyOutResponse(Tuto.PayohAPI.MoneyOutResultObject MoneyOutResult) {
             this.MoneyOutResult = MoneyOutResult;
         }
     }
@@ -8277,12 +8277,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetPaymentDetailsResult GetPaymentDetailsResult;
+        public Tuto.PayohAPI.GetPaymentDetailsResult GetPaymentDetailsResult;
         
         public GetPaymentDetailsResponse() {
         }
         
-        public GetPaymentDetailsResponse(Tuto.LemonWayAPI.GetPaymentDetailsResult GetPaymentDetailsResult) {
+        public GetPaymentDetailsResponse(Tuto.PayohAPI.GetPaymentDetailsResult GetPaymentDetailsResult) {
             this.GetPaymentDetailsResult = GetPaymentDetailsResult;
         }
     }
@@ -8350,12 +8350,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetMoneyInTransDetailsResultObject GetMoneyInTransDetailsResult;
+        public Tuto.PayohAPI.GetMoneyInTransDetailsResultObject GetMoneyInTransDetailsResult;
         
         public GetMoneyInTransDetailsResponse() {
         }
         
-        public GetMoneyInTransDetailsResponse(Tuto.LemonWayAPI.GetMoneyInTransDetailsResultObject GetMoneyInTransDetailsResult) {
+        public GetMoneyInTransDetailsResponse(Tuto.PayohAPI.GetMoneyInTransDetailsResultObject GetMoneyInTransDetailsResult) {
             this.GetMoneyInTransDetailsResult = GetMoneyInTransDetailsResult;
         }
     }
@@ -8411,12 +8411,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetMoneyOutTransDetailsResult GetMoneyOutTransDetailsResult;
+        public Tuto.PayohAPI.GetMoneyOutTransDetailsResult GetMoneyOutTransDetailsResult;
         
         public GetMoneyOutTransDetailsResponse() {
         }
         
-        public GetMoneyOutTransDetailsResponse(Tuto.LemonWayAPI.GetMoneyOutTransDetailsResult GetMoneyOutTransDetailsResult) {
+        public GetMoneyOutTransDetailsResponse(Tuto.PayohAPI.GetMoneyOutTransDetailsResult GetMoneyOutTransDetailsResult) {
             this.GetMoneyOutTransDetailsResult = GetMoneyOutTransDetailsResult;
         }
     }
@@ -8485,12 +8485,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.UploadFileResult UploadFileResult;
+        public Tuto.PayohAPI.UploadFileResult UploadFileResult;
         
         public UploadFileResponse() {
         }
         
-        public UploadFileResponse(Tuto.LemonWayAPI.UploadFileResult UploadFileResult) {
+        public UploadFileResponse(Tuto.PayohAPI.UploadFileResult UploadFileResult) {
             this.UploadFileResult = UploadFileResult;
         }
     }
@@ -8542,12 +8542,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetKycStatusResult GetKycStatusResult;
+        public Tuto.PayohAPI.GetKycStatusResult GetKycStatusResult;
         
         public GetKycStatusResponse() {
         }
         
-        public GetKycStatusResponse(Tuto.LemonWayAPI.GetKycStatusResult GetKycStatusResult) {
+        public GetKycStatusResponse(Tuto.PayohAPI.GetKycStatusResult GetKycStatusResult) {
             this.GetKycStatusResult = GetKycStatusResult;
         }
     }
@@ -8599,12 +8599,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetMoneyInIBANDetailsResult GetMoneyInIBANDetailsResult;
+        public Tuto.PayohAPI.GetMoneyInIBANDetailsResult GetMoneyInIBANDetailsResult;
         
         public GetMoneyInIBANDetailsResponse() {
         }
         
-        public GetMoneyInIBANDetailsResponse(Tuto.LemonWayAPI.GetMoneyInIBANDetailsResult GetMoneyInIBANDetailsResult) {
+        public GetMoneyInIBANDetailsResponse(Tuto.PayohAPI.GetMoneyInIBANDetailsResult GetMoneyInIBANDetailsResult) {
             this.GetMoneyInIBANDetailsResult = GetMoneyInIBANDetailsResult;
         }
     }
@@ -8664,12 +8664,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.RefundMoneyInResult RefundMoneyInResult;
+        public Tuto.PayohAPI.RefundMoneyInResult RefundMoneyInResult;
         
         public RefundMoneyInResponse() {
         }
         
-        public RefundMoneyInResponse(Tuto.LemonWayAPI.RefundMoneyInResult RefundMoneyInResult) {
+        public RefundMoneyInResponse(Tuto.PayohAPI.RefundMoneyInResult RefundMoneyInResult) {
             this.RefundMoneyInResult = RefundMoneyInResult;
         }
     }
@@ -8729,12 +8729,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetBalancesResult GetBalancesResult;
+        public Tuto.PayohAPI.GetBalancesResult GetBalancesResult;
         
         public GetBalancesResponse() {
         }
         
-        public GetBalancesResponse(Tuto.LemonWayAPI.GetBalancesResult GetBalancesResult) {
+        public GetBalancesResponse(Tuto.PayohAPI.GetBalancesResult GetBalancesResult) {
             this.GetBalancesResult = GetBalancesResult;
         }
     }
@@ -8814,12 +8814,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyIn3DAuthenticateResult MoneyIn3DAuthenticateResult;
+        public Tuto.PayohAPI.MoneyIn3DAuthenticateResult MoneyIn3DAuthenticateResult;
         
         public MoneyIn3DAuthenticateResponse() {
         }
         
-        public MoneyIn3DAuthenticateResponse(Tuto.LemonWayAPI.MoneyIn3DAuthenticateResult MoneyIn3DAuthenticateResult) {
+        public MoneyIn3DAuthenticateResponse(Tuto.PayohAPI.MoneyIn3DAuthenticateResult MoneyIn3DAuthenticateResult) {
             this.MoneyIn3DAuthenticateResult = MoneyIn3DAuthenticateResult;
         }
     }
@@ -8895,12 +8895,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInIDealInitResult MoneyInIDealInitResult;
+        public Tuto.PayohAPI.MoneyInIDealInitResult MoneyInIDealInitResult;
         
         public MoneyInIDealInitResponse() {
         }
         
-        public MoneyInIDealInitResponse(Tuto.LemonWayAPI.MoneyInIDealInitResult MoneyInIDealInitResult) {
+        public MoneyInIDealInitResponse(Tuto.PayohAPI.MoneyInIDealInitResult MoneyInIDealInitResult) {
             this.MoneyInIDealInitResult = MoneyInIDealInitResult;
         }
     }
@@ -8952,12 +8952,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInIDealConfirmResult MoneyInIDealConfirmResult;
+        public Tuto.PayohAPI.MoneyInIDealConfirmResult MoneyInIDealConfirmResult;
         
         public MoneyInIDealConfirmResponse() {
         }
         
-        public MoneyInIDealConfirmResponse(Tuto.LemonWayAPI.MoneyInIDealConfirmResult MoneyInIDealConfirmResult) {
+        public MoneyInIDealConfirmResponse(Tuto.PayohAPI.MoneyInIDealConfirmResult MoneyInIDealConfirmResult) {
             this.MoneyInIDealConfirmResult = MoneyInIDealConfirmResult;
         }
     }
@@ -9066,12 +9066,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.RegisterSddMandateResult RegisterSddMandateResult;
+        public Tuto.PayohAPI.RegisterSddMandateResult RegisterSddMandateResult;
         
         public RegisterSddMandateResponse() {
         }
         
-        public RegisterSddMandateResponse(Tuto.LemonWayAPI.RegisterSddMandateResult RegisterSddMandateResult) {
+        public RegisterSddMandateResponse(Tuto.PayohAPI.RegisterSddMandateResult RegisterSddMandateResult) {
             this.RegisterSddMandateResult = RegisterSddMandateResult;
         }
     }
@@ -9127,12 +9127,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.UnRegisterSddMandateResult UnRegisterSddMandateResult;
+        public Tuto.PayohAPI.UnRegisterSddMandateResult UnRegisterSddMandateResult;
         
         public UnregisterSddMandateResponse() {
         }
         
-        public UnregisterSddMandateResponse(Tuto.LemonWayAPI.UnRegisterSddMandateResult UnRegisterSddMandateResult) {
+        public UnregisterSddMandateResponse(Tuto.PayohAPI.UnRegisterSddMandateResult UnRegisterSddMandateResult) {
             this.UnRegisterSddMandateResult = UnRegisterSddMandateResult;
         }
     }
@@ -9208,12 +9208,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInSddInitResult MoneyInSddInitResult;
+        public Tuto.PayohAPI.MoneyInSddInitResult MoneyInSddInitResult;
         
         public MoneyInSddInitResponse() {
         }
         
-        public MoneyInSddInitResponse(Tuto.LemonWayAPI.MoneyInSddInitResult MoneyInSddInitResult) {
+        public MoneyInSddInitResponse(Tuto.PayohAPI.MoneyInSddInitResult MoneyInSddInitResult) {
             this.MoneyInSddInitResult = MoneyInSddInitResult;
         }
     }
@@ -9265,12 +9265,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetMoneyInSddResult GetMoneyInSddResult;
+        public Tuto.PayohAPI.GetMoneyInSddResult GetMoneyInSddResult;
         
         public GetMoneyInSddResponse() {
         }
         
-        public GetMoneyInSddResponse(Tuto.LemonWayAPI.GetMoneyInSddResult GetMoneyInSddResult) {
+        public GetMoneyInSddResponse(Tuto.PayohAPI.GetMoneyInSddResult GetMoneyInSddResult) {
             this.GetMoneyInSddResult = GetMoneyInSddResult;
         }
     }
@@ -9326,12 +9326,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetMoneyInChequeDetailsResult GetMoneyInChequeDetailsResult;
+        public Tuto.PayohAPI.GetMoneyInChequeDetailsResult GetMoneyInChequeDetailsResult;
         
         public GetMoneyInChequeDetailsResponse() {
         }
         
-        public GetMoneyInChequeDetailsResponse(Tuto.LemonWayAPI.GetMoneyInChequeDetailsResult GetMoneyInChequeDetailsResult) {
+        public GetMoneyInChequeDetailsResponse(Tuto.PayohAPI.GetMoneyInChequeDetailsResult GetMoneyInChequeDetailsResult) {
             this.GetMoneyInChequeDetailsResult = GetMoneyInChequeDetailsResult;
         }
     }
@@ -9391,12 +9391,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetWalletTransHistoryResult GetWalletTransHistoryResult;
+        public Tuto.PayohAPI.GetWalletTransHistoryResult GetWalletTransHistoryResult;
         
         public GetWalletTransHistoryResponse() {
         }
         
-        public GetWalletTransHistoryResponse(Tuto.LemonWayAPI.GetWalletTransHistoryResult GetWalletTransHistoryResult) {
+        public GetWalletTransHistoryResponse(Tuto.PayohAPI.GetWalletTransHistoryResult GetWalletTransHistoryResult) {
             this.GetWalletTransHistoryResult = GetWalletTransHistoryResult;
         }
     }
@@ -9448,12 +9448,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetChargeBacksResult GetChargeBacksResult;
+        public Tuto.PayohAPI.GetChargeBacksResult GetChargeBacksResult;
         
         public GetChargebacksResponse() {
         }
         
-        public GetChargebacksResponse(Tuto.LemonWayAPI.GetChargeBacksResult GetChargeBacksResult) {
+        public GetChargebacksResponse(Tuto.PayohAPI.GetChargeBacksResult GetChargeBacksResult) {
             this.GetChargeBacksResult = GetChargeBacksResult;
         }
     }
@@ -9533,12 +9533,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInChequeInitResult MoneyInChequeInitResult;
+        public Tuto.PayohAPI.MoneyInChequeInitResult MoneyInChequeInitResult;
         
         public MoneyInChequeInitResponse() {
         }
         
-        public MoneyInChequeInitResponse(Tuto.LemonWayAPI.MoneyInChequeInitResult MoneyInChequeInitResult) {
+        public MoneyInChequeInitResponse(Tuto.PayohAPI.MoneyInChequeInitResult MoneyInChequeInitResult) {
             this.MoneyInChequeInitResult = MoneyInChequeInitResult;
         }
     }
@@ -9610,12 +9610,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.SignDocumentInitResult SignDocumentInitResult;
+        public Tuto.PayohAPI.SignDocumentInitResult SignDocumentInitResult;
         
         public SignDocumentInitResponse() {
         }
         
-        public SignDocumentInitResponse(Tuto.LemonWayAPI.SignDocumentInitResult SignDocumentInitResult) {
+        public SignDocumentInitResponse(Tuto.PayohAPI.SignDocumentInitResult SignDocumentInitResult) {
             this.SignDocumentInitResult = SignDocumentInitResult;
         }
     }
@@ -9671,12 +9671,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.CreateVCCResult CreateVCCResult;
+        public Tuto.PayohAPI.CreateVCCResult CreateVCCResult;
         
         public CreateVCCResponse() {
         }
         
-        public CreateVCCResponse(Tuto.LemonWayAPI.CreateVCCResult CreateVCCResult) {
+        public CreateVCCResponse(Tuto.PayohAPI.CreateVCCResult CreateVCCResult) {
             this.CreateVCCResult = CreateVCCResult;
         }
     }
@@ -9752,12 +9752,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInNeosurfResult MoneyInNeosurfResult;
+        public Tuto.PayohAPI.MoneyInNeosurfResult MoneyInNeosurfResult;
         
         public MoneyInNeosurfResponse() {
         }
         
-        public MoneyInNeosurfResponse(Tuto.LemonWayAPI.MoneyInNeosurfResult MoneyInNeosurfResult) {
+        public MoneyInNeosurfResponse(Tuto.PayohAPI.MoneyInNeosurfResult MoneyInNeosurfResult) {
             this.MoneyInNeosurfResult = MoneyInNeosurfResult;
         }
     }
@@ -9805,12 +9805,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetWizypayAdsResult GetWizypayAdsResult;
+        public Tuto.PayohAPI.GetWizypayAdsResult GetWizypayAdsResult;
         
         public GetWizypayAdsResponse() {
         }
         
-        public GetWizypayAdsResponse(Tuto.LemonWayAPI.GetWizypayAdsResult GetWizypayAdsResult) {
+        public GetWizypayAdsResponse(Tuto.PayohAPI.GetWizypayAdsResult GetWizypayAdsResult) {
             this.GetWizypayAdsResult = GetWizypayAdsResult;
         }
     }
@@ -9882,12 +9882,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.SendPaymentResult SendPaymentResult;
+        public Tuto.PayohAPI.SendPaymentResult SendPaymentResult;
         
         public SendPaymentResponse() {
         }
         
-        public SendPaymentResponse(Tuto.LemonWayAPI.SendPaymentResult SendPaymentResult) {
+        public SendPaymentResponse(Tuto.PayohAPI.SendPaymentResult SendPaymentResult) {
             this.SendPaymentResult = SendPaymentResult;
         }
     }
@@ -9963,12 +9963,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInSofortInitResult MoneyInSofortInitResult;
+        public Tuto.PayohAPI.MoneyInSofortInitResult MoneyInSofortInitResult;
         
         public MoneyInSofortInitResponse() {
         }
         
-        public MoneyInSofortInitResponse(Tuto.LemonWayAPI.MoneyInSofortInitResult MoneyInSofortInitResult) {
+        public MoneyInSofortInitResponse(Tuto.PayohAPI.MoneyInSofortInitResult MoneyInSofortInitResult) {
             this.MoneyInSofortInitResult = MoneyInSofortInitResult;
         }
     }
@@ -10044,12 +10044,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInMultibancoInitResult MoneyInMultibancoInitResult;
+        public Tuto.PayohAPI.MoneyInMultibancoInitResult MoneyInMultibancoInitResult;
         
         public MoneyInMultibancoInitResponse() {
         }
         
-        public MoneyInMultibancoInitResponse(Tuto.LemonWayAPI.MoneyInMultibancoInitResult MoneyInMultibancoInitResult) {
+        public MoneyInMultibancoInitResponse(Tuto.PayohAPI.MoneyInMultibancoInitResult MoneyInMultibancoInitResult) {
             this.MoneyInMultibancoInitResult = MoneyInMultibancoInitResult;
         }
     }
@@ -10125,12 +10125,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInPayshopInitResult MoneyInPayshopInitResult;
+        public Tuto.PayohAPI.MoneyInPayshopInitResult MoneyInPayshopInitResult;
         
         public MoneyInPayshopInitResponse() {
         }
         
-        public MoneyInPayshopInitResponse(Tuto.LemonWayAPI.MoneyInPayshopInitResult MoneyInPayshopInitResult) {
+        public MoneyInPayshopInitResponse(Tuto.PayohAPI.MoneyInPayshopInitResult MoneyInPayshopInitResult) {
             this.MoneyInPayshopInitResult = MoneyInPayshopInitResult;
         }
     }
@@ -10210,12 +10210,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInMbwayInitResult MoneyInMbwayInitResult;
+        public Tuto.PayohAPI.MoneyInMbwayInitResult MoneyInMbwayInitResult;
         
         public MoneyInMbwayInitResponse() {
         }
         
-        public MoneyInMbwayInitResponse(Tuto.LemonWayAPI.MoneyInMbwayInitResult MoneyInMbwayInitResult) {
+        public MoneyInMbwayInitResponse(Tuto.PayohAPI.MoneyInMbwayInitResult MoneyInMbwayInitResult) {
             this.MoneyInMbwayInitResult = MoneyInMbwayInitResult;
         }
     }
@@ -10291,12 +10291,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInPayTrailInitResult MoneyInPayTrailInitResult;
+        public Tuto.PayohAPI.MoneyInPayTrailInitResult MoneyInPayTrailInitResult;
         
         public MoneyInPayTrailInitResponse() {
         }
         
-        public MoneyInPayTrailInitResponse(Tuto.LemonWayAPI.MoneyInPayTrailInitResult MoneyInPayTrailInitResult) {
+        public MoneyInPayTrailInitResponse(Tuto.PayohAPI.MoneyInPayTrailInitResult MoneyInPayTrailInitResult) {
             this.MoneyInPayTrailInitResult = MoneyInPayTrailInitResult;
         }
     }
@@ -10372,12 +10372,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.MoneyInMobilePayInitResult MoneyInMobilePayInitResult;
+        public Tuto.PayohAPI.MoneyInMobilePayInitResult MoneyInMobilePayInitResult;
         
         public MoneyInMobilePayInitResponse() {
         }
         
-        public MoneyInMobilePayInitResponse(Tuto.LemonWayAPI.MoneyInMobilePayInitResult MoneyInMobilePayInitResult) {
+        public MoneyInMobilePayInitResponse(Tuto.PayohAPI.MoneyInMobilePayInitResult MoneyInMobilePayInitResult) {
             this.MoneyInMobilePayInitResult = MoneyInMobilePayInitResult;
         }
     }
@@ -10511,12 +10511,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.CreatePaymentFormResult CreatePaymentFormResult;
+        public Tuto.PayohAPI.CreatePaymentFormResult CreatePaymentFormResult;
         
         public CreatePaymentFormResponse() {
         }
         
-        public CreatePaymentFormResponse(Tuto.LemonWayAPI.CreatePaymentFormResult CreatePaymentFormResult) {
+        public CreatePaymentFormResponse(Tuto.PayohAPI.CreatePaymentFormResult CreatePaymentFormResult) {
             this.CreatePaymentFormResult = CreatePaymentFormResult;
         }
     }
@@ -10568,12 +10568,12 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.DisablePaymentFormResult DisablePaymentFormResult;
+        public Tuto.PayohAPI.DisablePaymentFormResult DisablePaymentFormResult;
         
         public DisablePaymentFormResponse() {
         }
         
-        public DisablePaymentFormResponse(Tuto.LemonWayAPI.DisablePaymentFormResult DisablePaymentFormResult) {
+        public DisablePaymentFormResponse(Tuto.PayohAPI.DisablePaymentFormResult DisablePaymentFormResult) {
             this.DisablePaymentFormResult = DisablePaymentFormResult;
         }
     }
@@ -10625,23 +10625,23 @@ namespace Tuto.LemonWayAPI {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="Service_mb_xml", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public Tuto.LemonWayAPI.GetCompletedPaymentFormResult SetPaymentFormStatusResult;
+        public Tuto.PayohAPI.GetCompletedPaymentFormResult SetPaymentFormStatusResult;
         
         public GetCompletedPaymentFormResponse() {
         }
         
-        public GetCompletedPaymentFormResponse(Tuto.LemonWayAPI.GetCompletedPaymentFormResult SetPaymentFormStatusResult) {
+        public GetCompletedPaymentFormResponse(Tuto.PayohAPI.GetCompletedPaymentFormResult SetPaymentFormStatusResult) {
             this.SetPaymentFormStatusResult = SetPaymentFormStatusResult;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface Service_mb_xmlSoapChannel : Tuto.LemonWayAPI.Service_mb_xmlSoap, System.ServiceModel.IClientChannel {
+    public interface Service_mb_xmlSoapChannel : Tuto.PayohAPI.Service_mb_xmlSoap, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class Service_mb_xmlSoapClient : System.ServiceModel.ClientBase<Tuto.LemonWayAPI.Service_mb_xmlSoap>, Tuto.LemonWayAPI.Service_mb_xmlSoap {
+    public partial class Service_mb_xmlSoapClient : System.ServiceModel.ClientBase<Tuto.PayohAPI.Service_mb_xmlSoap>, Tuto.PayohAPI.Service_mb_xmlSoap {
         
         public Service_mb_xmlSoapClient() {
         }
@@ -10662,395 +10662,395 @@ namespace Tuto.LemonWayAPI {
                 base(binding, remoteAddress) {
         }
         
-        public Tuto.LemonWayAPI.RegisterWalletResponse RegisterWallet(Tuto.LemonWayAPI.RegisterWalletRequest request) {
+        public Tuto.PayohAPI.RegisterWalletResponse RegisterWallet(Tuto.PayohAPI.RegisterWalletRequest request) {
             return base.Channel.RegisterWallet(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.RegisterWalletResponse> RegisterWalletAsync(Tuto.LemonWayAPI.RegisterWalletRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.RegisterWalletResponse> RegisterWalletAsync(Tuto.PayohAPI.RegisterWalletRequest request) {
             return base.Channel.RegisterWalletAsync(request);
         }
         
-        public Tuto.LemonWayAPI.FastPayResponse FastPay(Tuto.LemonWayAPI.FastPayRequest request) {
+        public Tuto.PayohAPI.FastPayResponse FastPay(Tuto.PayohAPI.FastPayRequest request) {
             return base.Channel.FastPay(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.FastPayResponse> FastPayAsync(Tuto.LemonWayAPI.FastPayRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.FastPayResponse> FastPayAsync(Tuto.PayohAPI.FastPayRequest request) {
             return base.Channel.FastPayAsync(request);
         }
         
-        public Tuto.LemonWayAPI.UpdateWalletDetailsResponse UpdateWalletDetails(Tuto.LemonWayAPI.UpdateWalletDetailsRequest request) {
+        public Tuto.PayohAPI.UpdateWalletDetailsResponse UpdateWalletDetails(Tuto.PayohAPI.UpdateWalletDetailsRequest request) {
             return base.Channel.UpdateWalletDetails(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.UpdateWalletDetailsResponse> UpdateWalletDetailsAsync(Tuto.LemonWayAPI.UpdateWalletDetailsRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.UpdateWalletDetailsResponse> UpdateWalletDetailsAsync(Tuto.PayohAPI.UpdateWalletDetailsRequest request) {
             return base.Channel.UpdateWalletDetailsAsync(request);
         }
         
-        public Tuto.LemonWayAPI.UpdateWalletStatusResponse UpdateWalletStatus(Tuto.LemonWayAPI.UpdateWalletStatusRequest request) {
+        public Tuto.PayohAPI.UpdateWalletStatusResponse UpdateWalletStatus(Tuto.PayohAPI.UpdateWalletStatusRequest request) {
             return base.Channel.UpdateWalletStatus(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.UpdateWalletStatusResponse> UpdateWalletStatusAsync(Tuto.LemonWayAPI.UpdateWalletStatusRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.UpdateWalletStatusResponse> UpdateWalletStatusAsync(Tuto.PayohAPI.UpdateWalletStatusRequest request) {
             return base.Channel.UpdateWalletStatusAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetWalletDetailsResponse GetWalletDetails(Tuto.LemonWayAPI.GetWalletDetailsRequest request) {
+        public Tuto.PayohAPI.GetWalletDetailsResponse GetWalletDetails(Tuto.PayohAPI.GetWalletDetailsRequest request) {
             return base.Channel.GetWalletDetails(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetWalletDetailsResponse> GetWalletDetailsAsync(Tuto.LemonWayAPI.GetWalletDetailsRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetWalletDetailsResponse> GetWalletDetailsAsync(Tuto.PayohAPI.GetWalletDetailsRequest request) {
             return base.Channel.GetWalletDetailsAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInResponse MoneyIn(Tuto.LemonWayAPI.MoneyInRequest request) {
+        public Tuto.PayohAPI.MoneyInResponse MoneyIn(Tuto.PayohAPI.MoneyInRequest request) {
             return base.Channel.MoneyIn(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInResponse> MoneyInAsync(Tuto.LemonWayAPI.MoneyInRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInResponse> MoneyInAsync(Tuto.PayohAPI.MoneyInRequest request) {
             return base.Channel.MoneyInAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyIn3DInitResponse MoneyIn3DInit(Tuto.LemonWayAPI.MoneyIn3DInitRequest request) {
+        public Tuto.PayohAPI.MoneyIn3DInitResponse MoneyIn3DInit(Tuto.PayohAPI.MoneyIn3DInitRequest request) {
             return base.Channel.MoneyIn3DInit(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyIn3DInitResponse> MoneyIn3DInitAsync(Tuto.LemonWayAPI.MoneyIn3DInitRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyIn3DInitResponse> MoneyIn3DInitAsync(Tuto.PayohAPI.MoneyIn3DInitRequest request) {
             return base.Channel.MoneyIn3DInitAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyIn3DConfirmResponse MoneyIn3DConfirm(Tuto.LemonWayAPI.MoneyIn3DConfirmRequest request) {
+        public Tuto.PayohAPI.MoneyIn3DConfirmResponse MoneyIn3DConfirm(Tuto.PayohAPI.MoneyIn3DConfirmRequest request) {
             return base.Channel.MoneyIn3DConfirm(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyIn3DConfirmResponse> MoneyIn3DConfirmAsync(Tuto.LemonWayAPI.MoneyIn3DConfirmRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyIn3DConfirmResponse> MoneyIn3DConfirmAsync(Tuto.PayohAPI.MoneyIn3DConfirmRequest request) {
             return base.Channel.MoneyIn3DConfirmAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInWebInitResponse MoneyInWebInit(Tuto.LemonWayAPI.MoneyInWebInitRequest request) {
+        public Tuto.PayohAPI.MoneyInWebInitResponse MoneyInWebInit(Tuto.PayohAPI.MoneyInWebInitRequest request) {
             return base.Channel.MoneyInWebInit(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInWebInitResponse> MoneyInWebInitAsync(Tuto.LemonWayAPI.MoneyInWebInitRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInWebInitResponse> MoneyInWebInitAsync(Tuto.PayohAPI.MoneyInWebInitRequest request) {
             return base.Channel.MoneyInWebInitAsync(request);
         }
         
-        public Tuto.LemonWayAPI.RegisterCardResponse RegisterCard(Tuto.LemonWayAPI.RegisterCardRequest request) {
+        public Tuto.PayohAPI.RegisterCardResponse RegisterCard(Tuto.PayohAPI.RegisterCardRequest request) {
             return base.Channel.RegisterCard(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.RegisterCardResponse> RegisterCardAsync(Tuto.LemonWayAPI.RegisterCardRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.RegisterCardResponse> RegisterCardAsync(Tuto.PayohAPI.RegisterCardRequest request) {
             return base.Channel.RegisterCardAsync(request);
         }
         
-        public Tuto.LemonWayAPI.UnregisterCardResponse UnregisterCard(Tuto.LemonWayAPI.UnregisterCardRequest request) {
+        public Tuto.PayohAPI.UnregisterCardResponse UnregisterCard(Tuto.PayohAPI.UnregisterCardRequest request) {
             return base.Channel.UnregisterCard(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.UnregisterCardResponse> UnregisterCardAsync(Tuto.LemonWayAPI.UnregisterCardRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.UnregisterCardResponse> UnregisterCardAsync(Tuto.PayohAPI.UnregisterCardRequest request) {
             return base.Channel.UnregisterCardAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInWithCardIdResponse MoneyInWithCardId(Tuto.LemonWayAPI.MoneyInWithCardIdRequest request) {
+        public Tuto.PayohAPI.MoneyInWithCardIdResponse MoneyInWithCardId(Tuto.PayohAPI.MoneyInWithCardIdRequest request) {
             return base.Channel.MoneyInWithCardId(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInWithCardIdResponse> MoneyInWithCardIdAsync(Tuto.LemonWayAPI.MoneyInWithCardIdRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInWithCardIdResponse> MoneyInWithCardIdAsync(Tuto.PayohAPI.MoneyInWithCardIdRequest request) {
             return base.Channel.MoneyInWithCardIdAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInValidateResponse MoneyInValidate(Tuto.LemonWayAPI.MoneyInValidateRequest request) {
+        public Tuto.PayohAPI.MoneyInValidateResponse MoneyInValidate(Tuto.PayohAPI.MoneyInValidateRequest request) {
             return base.Channel.MoneyInValidate(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInValidateResponse> MoneyInValidateAsync(Tuto.LemonWayAPI.MoneyInValidateRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInValidateResponse> MoneyInValidateAsync(Tuto.PayohAPI.MoneyInValidateRequest request) {
             return base.Channel.MoneyInValidateAsync(request);
         }
         
-        public Tuto.LemonWayAPI.RegisterIBANResponse RegisterIBAN(Tuto.LemonWayAPI.RegisterIBANRequest request) {
+        public Tuto.PayohAPI.RegisterIBANResponse RegisterIBAN(Tuto.PayohAPI.RegisterIBANRequest request) {
             return base.Channel.RegisterIBAN(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.RegisterIBANResponse> RegisterIBANAsync(Tuto.LemonWayAPI.RegisterIBANRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.RegisterIBANResponse> RegisterIBANAsync(Tuto.PayohAPI.RegisterIBANRequest request) {
             return base.Channel.RegisterIBANAsync(request);
         }
         
-        public Tuto.LemonWayAPI.RegisterIBANExtendedResponse RegisterIBANExtended(Tuto.LemonWayAPI.RegisterIBANExtendedRequest request) {
+        public Tuto.PayohAPI.RegisterIBANExtendedResponse RegisterIBANExtended(Tuto.PayohAPI.RegisterIBANExtendedRequest request) {
             return base.Channel.RegisterIBANExtended(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.RegisterIBANExtendedResponse> RegisterIBANExtendedAsync(Tuto.LemonWayAPI.RegisterIBANExtendedRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.RegisterIBANExtendedResponse> RegisterIBANExtendedAsync(Tuto.PayohAPI.RegisterIBANExtendedRequest request) {
             return base.Channel.RegisterIBANExtendedAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyOutResponse MoneyOut(Tuto.LemonWayAPI.MoneyOutRequest request) {
+        public Tuto.PayohAPI.MoneyOutResponse MoneyOut(Tuto.PayohAPI.MoneyOutRequest request) {
             return base.Channel.MoneyOut(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyOutResponse> MoneyOutAsync(Tuto.LemonWayAPI.MoneyOutRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyOutResponse> MoneyOutAsync(Tuto.PayohAPI.MoneyOutRequest request) {
             return base.Channel.MoneyOutAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetPaymentDetailsResponse GetPaymentDetails(Tuto.LemonWayAPI.GetPaymentDetailsRequest request) {
+        public Tuto.PayohAPI.GetPaymentDetailsResponse GetPaymentDetails(Tuto.PayohAPI.GetPaymentDetailsRequest request) {
             return base.Channel.GetPaymentDetails(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetPaymentDetailsResponse> GetPaymentDetailsAsync(Tuto.LemonWayAPI.GetPaymentDetailsRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetPaymentDetailsResponse> GetPaymentDetailsAsync(Tuto.PayohAPI.GetPaymentDetailsRequest request) {
             return base.Channel.GetPaymentDetailsAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetMoneyInTransDetailsResponse GetMoneyInTransDetails(Tuto.LemonWayAPI.GetMoneyInTransDetailsRequest request) {
+        public Tuto.PayohAPI.GetMoneyInTransDetailsResponse GetMoneyInTransDetails(Tuto.PayohAPI.GetMoneyInTransDetailsRequest request) {
             return base.Channel.GetMoneyInTransDetails(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetMoneyInTransDetailsResponse> GetMoneyInTransDetailsAsync(Tuto.LemonWayAPI.GetMoneyInTransDetailsRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetMoneyInTransDetailsResponse> GetMoneyInTransDetailsAsync(Tuto.PayohAPI.GetMoneyInTransDetailsRequest request) {
             return base.Channel.GetMoneyInTransDetailsAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetMoneyOutTransDetailsResponse GetMoneyOutTransDetails(Tuto.LemonWayAPI.GetMoneyOutTransDetailsRequest request) {
+        public Tuto.PayohAPI.GetMoneyOutTransDetailsResponse GetMoneyOutTransDetails(Tuto.PayohAPI.GetMoneyOutTransDetailsRequest request) {
             return base.Channel.GetMoneyOutTransDetails(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetMoneyOutTransDetailsResponse> GetMoneyOutTransDetailsAsync(Tuto.LemonWayAPI.GetMoneyOutTransDetailsRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetMoneyOutTransDetailsResponse> GetMoneyOutTransDetailsAsync(Tuto.PayohAPI.GetMoneyOutTransDetailsRequest request) {
             return base.Channel.GetMoneyOutTransDetailsAsync(request);
         }
         
-        public Tuto.LemonWayAPI.UploadFileResponse UploadFile(Tuto.LemonWayAPI.UploadFileRequest request) {
+        public Tuto.PayohAPI.UploadFileResponse UploadFile(Tuto.PayohAPI.UploadFileRequest request) {
             return base.Channel.UploadFile(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.UploadFileResponse> UploadFileAsync(Tuto.LemonWayAPI.UploadFileRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.UploadFileResponse> UploadFileAsync(Tuto.PayohAPI.UploadFileRequest request) {
             return base.Channel.UploadFileAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetKycStatusResponse GetKycStatus(Tuto.LemonWayAPI.GetKycStatusRequest request) {
+        public Tuto.PayohAPI.GetKycStatusResponse GetKycStatus(Tuto.PayohAPI.GetKycStatusRequest request) {
             return base.Channel.GetKycStatus(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetKycStatusResponse> GetKycStatusAsync(Tuto.LemonWayAPI.GetKycStatusRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetKycStatusResponse> GetKycStatusAsync(Tuto.PayohAPI.GetKycStatusRequest request) {
             return base.Channel.GetKycStatusAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetMoneyInIBANDetailsResponse GetMoneyInIBANDetails(Tuto.LemonWayAPI.GetMoneyInIBANDetailsRequest request) {
+        public Tuto.PayohAPI.GetMoneyInIBANDetailsResponse GetMoneyInIBANDetails(Tuto.PayohAPI.GetMoneyInIBANDetailsRequest request) {
             return base.Channel.GetMoneyInIBANDetails(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetMoneyInIBANDetailsResponse> GetMoneyInIBANDetailsAsync(Tuto.LemonWayAPI.GetMoneyInIBANDetailsRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetMoneyInIBANDetailsResponse> GetMoneyInIBANDetailsAsync(Tuto.PayohAPI.GetMoneyInIBANDetailsRequest request) {
             return base.Channel.GetMoneyInIBANDetailsAsync(request);
         }
         
-        public Tuto.LemonWayAPI.RefundMoneyInResponse RefundMoneyIn(Tuto.LemonWayAPI.RefundMoneyInRequest request) {
+        public Tuto.PayohAPI.RefundMoneyInResponse RefundMoneyIn(Tuto.PayohAPI.RefundMoneyInRequest request) {
             return base.Channel.RefundMoneyIn(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.RefundMoneyInResponse> RefundMoneyInAsync(Tuto.LemonWayAPI.RefundMoneyInRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.RefundMoneyInResponse> RefundMoneyInAsync(Tuto.PayohAPI.RefundMoneyInRequest request) {
             return base.Channel.RefundMoneyInAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetBalancesResponse GetBalances(Tuto.LemonWayAPI.GetBalancesRequest request) {
+        public Tuto.PayohAPI.GetBalancesResponse GetBalances(Tuto.PayohAPI.GetBalancesRequest request) {
             return base.Channel.GetBalances(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetBalancesResponse> GetBalancesAsync(Tuto.LemonWayAPI.GetBalancesRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetBalancesResponse> GetBalancesAsync(Tuto.PayohAPI.GetBalancesRequest request) {
             return base.Channel.GetBalancesAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyIn3DAuthenticateResponse MoneyIn3DAuthenticate(Tuto.LemonWayAPI.MoneyIn3DAuthenticateRequest request) {
+        public Tuto.PayohAPI.MoneyIn3DAuthenticateResponse MoneyIn3DAuthenticate(Tuto.PayohAPI.MoneyIn3DAuthenticateRequest request) {
             return base.Channel.MoneyIn3DAuthenticate(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyIn3DAuthenticateResponse> MoneyIn3DAuthenticateAsync(Tuto.LemonWayAPI.MoneyIn3DAuthenticateRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyIn3DAuthenticateResponse> MoneyIn3DAuthenticateAsync(Tuto.PayohAPI.MoneyIn3DAuthenticateRequest request) {
             return base.Channel.MoneyIn3DAuthenticateAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInIDealInitResponse MoneyInIDealInit(Tuto.LemonWayAPI.MoneyInIDealInitRequest request) {
+        public Tuto.PayohAPI.MoneyInIDealInitResponse MoneyInIDealInit(Tuto.PayohAPI.MoneyInIDealInitRequest request) {
             return base.Channel.MoneyInIDealInit(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInIDealInitResponse> MoneyInIDealInitAsync(Tuto.LemonWayAPI.MoneyInIDealInitRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInIDealInitResponse> MoneyInIDealInitAsync(Tuto.PayohAPI.MoneyInIDealInitRequest request) {
             return base.Channel.MoneyInIDealInitAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInIDealConfirmResponse MoneyInIDealConfirm(Tuto.LemonWayAPI.MoneyInIDealConfirmRequest request) {
+        public Tuto.PayohAPI.MoneyInIDealConfirmResponse MoneyInIDealConfirm(Tuto.PayohAPI.MoneyInIDealConfirmRequest request) {
             return base.Channel.MoneyInIDealConfirm(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInIDealConfirmResponse> MoneyInIDealConfirmAsync(Tuto.LemonWayAPI.MoneyInIDealConfirmRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInIDealConfirmResponse> MoneyInIDealConfirmAsync(Tuto.PayohAPI.MoneyInIDealConfirmRequest request) {
             return base.Channel.MoneyInIDealConfirmAsync(request);
         }
         
-        public Tuto.LemonWayAPI.RegisterSddMandateResponse RegisterSddMandate(Tuto.LemonWayAPI.RegisterSddMandateRequest request) {
+        public Tuto.PayohAPI.RegisterSddMandateResponse RegisterSddMandate(Tuto.PayohAPI.RegisterSddMandateRequest request) {
             return base.Channel.RegisterSddMandate(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.RegisterSddMandateResponse> RegisterSddMandateAsync(Tuto.LemonWayAPI.RegisterSddMandateRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.RegisterSddMandateResponse> RegisterSddMandateAsync(Tuto.PayohAPI.RegisterSddMandateRequest request) {
             return base.Channel.RegisterSddMandateAsync(request);
         }
         
-        public Tuto.LemonWayAPI.UnregisterSddMandateResponse UnregisterSddMandate(Tuto.LemonWayAPI.UnregisterSddMandateRequest request) {
+        public Tuto.PayohAPI.UnregisterSddMandateResponse UnregisterSddMandate(Tuto.PayohAPI.UnregisterSddMandateRequest request) {
             return base.Channel.UnregisterSddMandate(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.UnregisterSddMandateResponse> UnregisterSddMandateAsync(Tuto.LemonWayAPI.UnregisterSddMandateRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.UnregisterSddMandateResponse> UnregisterSddMandateAsync(Tuto.PayohAPI.UnregisterSddMandateRequest request) {
             return base.Channel.UnregisterSddMandateAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInSddInitResponse MoneyInSddInit(Tuto.LemonWayAPI.MoneyInSddInitRequest request) {
+        public Tuto.PayohAPI.MoneyInSddInitResponse MoneyInSddInit(Tuto.PayohAPI.MoneyInSddInitRequest request) {
             return base.Channel.MoneyInSddInit(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInSddInitResponse> MoneyInSddInitAsync(Tuto.LemonWayAPI.MoneyInSddInitRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInSddInitResponse> MoneyInSddInitAsync(Tuto.PayohAPI.MoneyInSddInitRequest request) {
             return base.Channel.MoneyInSddInitAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetMoneyInSddResponse GetMoneyInSdd(Tuto.LemonWayAPI.GetMoneyInSddRequest request) {
+        public Tuto.PayohAPI.GetMoneyInSddResponse GetMoneyInSdd(Tuto.PayohAPI.GetMoneyInSddRequest request) {
             return base.Channel.GetMoneyInSdd(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetMoneyInSddResponse> GetMoneyInSddAsync(Tuto.LemonWayAPI.GetMoneyInSddRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetMoneyInSddResponse> GetMoneyInSddAsync(Tuto.PayohAPI.GetMoneyInSddRequest request) {
             return base.Channel.GetMoneyInSddAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetMoneyInChequeDetailsResponse GetMoneyInChequeDetails(Tuto.LemonWayAPI.GetMoneyInChequeDetailsRequest request) {
+        public Tuto.PayohAPI.GetMoneyInChequeDetailsResponse GetMoneyInChequeDetails(Tuto.PayohAPI.GetMoneyInChequeDetailsRequest request) {
             return base.Channel.GetMoneyInChequeDetails(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetMoneyInChequeDetailsResponse> GetMoneyInChequeDetailsAsync(Tuto.LemonWayAPI.GetMoneyInChequeDetailsRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetMoneyInChequeDetailsResponse> GetMoneyInChequeDetailsAsync(Tuto.PayohAPI.GetMoneyInChequeDetailsRequest request) {
             return base.Channel.GetMoneyInChequeDetailsAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetWalletTransHistoryResponse GetWalletTransHistory(Tuto.LemonWayAPI.GetWalletTransHistoryRequest request) {
+        public Tuto.PayohAPI.GetWalletTransHistoryResponse GetWalletTransHistory(Tuto.PayohAPI.GetWalletTransHistoryRequest request) {
             return base.Channel.GetWalletTransHistory(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetWalletTransHistoryResponse> GetWalletTransHistoryAsync(Tuto.LemonWayAPI.GetWalletTransHistoryRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetWalletTransHistoryResponse> GetWalletTransHistoryAsync(Tuto.PayohAPI.GetWalletTransHistoryRequest request) {
             return base.Channel.GetWalletTransHistoryAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetChargebacksResponse GetChargebacks(Tuto.LemonWayAPI.GetChargebacksRequest request) {
+        public Tuto.PayohAPI.GetChargebacksResponse GetChargebacks(Tuto.PayohAPI.GetChargebacksRequest request) {
             return base.Channel.GetChargebacks(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetChargebacksResponse> GetChargebacksAsync(Tuto.LemonWayAPI.GetChargebacksRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetChargebacksResponse> GetChargebacksAsync(Tuto.PayohAPI.GetChargebacksRequest request) {
             return base.Channel.GetChargebacksAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInChequeInitResponse MoneyInChequeInit(Tuto.LemonWayAPI.MoneyInChequeInitRequest request) {
+        public Tuto.PayohAPI.MoneyInChequeInitResponse MoneyInChequeInit(Tuto.PayohAPI.MoneyInChequeInitRequest request) {
             return base.Channel.MoneyInChequeInit(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInChequeInitResponse> MoneyInChequeInitAsync(Tuto.LemonWayAPI.MoneyInChequeInitRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInChequeInitResponse> MoneyInChequeInitAsync(Tuto.PayohAPI.MoneyInChequeInitRequest request) {
             return base.Channel.MoneyInChequeInitAsync(request);
         }
         
-        public Tuto.LemonWayAPI.SignDocumentInitResponse SignDocumentInit(Tuto.LemonWayAPI.SignDocumentInitRequest request) {
+        public Tuto.PayohAPI.SignDocumentInitResponse SignDocumentInit(Tuto.PayohAPI.SignDocumentInitRequest request) {
             return base.Channel.SignDocumentInit(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.SignDocumentInitResponse> SignDocumentInitAsync(Tuto.LemonWayAPI.SignDocumentInitRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.SignDocumentInitResponse> SignDocumentInitAsync(Tuto.PayohAPI.SignDocumentInitRequest request) {
             return base.Channel.SignDocumentInitAsync(request);
         }
         
-        public Tuto.LemonWayAPI.CreateVCCResponse CreateVCC(Tuto.LemonWayAPI.CreateVCCRequest request) {
+        public Tuto.PayohAPI.CreateVCCResponse CreateVCC(Tuto.PayohAPI.CreateVCCRequest request) {
             return base.Channel.CreateVCC(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.CreateVCCResponse> CreateVCCAsync(Tuto.LemonWayAPI.CreateVCCRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.CreateVCCResponse> CreateVCCAsync(Tuto.PayohAPI.CreateVCCRequest request) {
             return base.Channel.CreateVCCAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInNeosurfResponse MoneyInNeosurf(Tuto.LemonWayAPI.MoneyInNeosurfRequest request) {
+        public Tuto.PayohAPI.MoneyInNeosurfResponse MoneyInNeosurf(Tuto.PayohAPI.MoneyInNeosurfRequest request) {
             return base.Channel.MoneyInNeosurf(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInNeosurfResponse> MoneyInNeosurfAsync(Tuto.LemonWayAPI.MoneyInNeosurfRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInNeosurfResponse> MoneyInNeosurfAsync(Tuto.PayohAPI.MoneyInNeosurfRequest request) {
             return base.Channel.MoneyInNeosurfAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetWizypayAdsResponse GetWizypayAds(Tuto.LemonWayAPI.GetWizypayAdsRequest request) {
+        public Tuto.PayohAPI.GetWizypayAdsResponse GetWizypayAds(Tuto.PayohAPI.GetWizypayAdsRequest request) {
             return base.Channel.GetWizypayAds(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetWizypayAdsResponse> GetWizypayAdsAsync(Tuto.LemonWayAPI.GetWizypayAdsRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetWizypayAdsResponse> GetWizypayAdsAsync(Tuto.PayohAPI.GetWizypayAdsRequest request) {
             return base.Channel.GetWizypayAdsAsync(request);
         }
         
-        public Tuto.LemonWayAPI.SendPaymentResponse SendPayment(Tuto.LemonWayAPI.SendPaymentRequest request) {
+        public Tuto.PayohAPI.SendPaymentResponse SendPayment(Tuto.PayohAPI.SendPaymentRequest request) {
             return base.Channel.SendPayment(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.SendPaymentResponse> SendPaymentAsync(Tuto.LemonWayAPI.SendPaymentRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.SendPaymentResponse> SendPaymentAsync(Tuto.PayohAPI.SendPaymentRequest request) {
             return base.Channel.SendPaymentAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInSofortInitResponse MoneyInSofortInit(Tuto.LemonWayAPI.MoneyInSofortInitRequest request) {
+        public Tuto.PayohAPI.MoneyInSofortInitResponse MoneyInSofortInit(Tuto.PayohAPI.MoneyInSofortInitRequest request) {
             return base.Channel.MoneyInSofortInit(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInSofortInitResponse> MoneyInSofortInitAsync(Tuto.LemonWayAPI.MoneyInSofortInitRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInSofortInitResponse> MoneyInSofortInitAsync(Tuto.PayohAPI.MoneyInSofortInitRequest request) {
             return base.Channel.MoneyInSofortInitAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInMultibancoInitResponse MoneyInMultibancoInit(Tuto.LemonWayAPI.MoneyInMultibancoInitRequest request) {
+        public Tuto.PayohAPI.MoneyInMultibancoInitResponse MoneyInMultibancoInit(Tuto.PayohAPI.MoneyInMultibancoInitRequest request) {
             return base.Channel.MoneyInMultibancoInit(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInMultibancoInitResponse> MoneyInMultibancoInitAsync(Tuto.LemonWayAPI.MoneyInMultibancoInitRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInMultibancoInitResponse> MoneyInMultibancoInitAsync(Tuto.PayohAPI.MoneyInMultibancoInitRequest request) {
             return base.Channel.MoneyInMultibancoInitAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInPayshopInitResponse MoneyInPayshopInit(Tuto.LemonWayAPI.MoneyInPayshopInitRequest request) {
+        public Tuto.PayohAPI.MoneyInPayshopInitResponse MoneyInPayshopInit(Tuto.PayohAPI.MoneyInPayshopInitRequest request) {
             return base.Channel.MoneyInPayshopInit(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInPayshopInitResponse> MoneyInPayshopInitAsync(Tuto.LemonWayAPI.MoneyInPayshopInitRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInPayshopInitResponse> MoneyInPayshopInitAsync(Tuto.PayohAPI.MoneyInPayshopInitRequest request) {
             return base.Channel.MoneyInPayshopInitAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInMbwayInitResponse MoneyInMbwayInit(Tuto.LemonWayAPI.MoneyInMbwayInitRequest request) {
+        public Tuto.PayohAPI.MoneyInMbwayInitResponse MoneyInMbwayInit(Tuto.PayohAPI.MoneyInMbwayInitRequest request) {
             return base.Channel.MoneyInMbwayInit(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInMbwayInitResponse> MoneyInMbwayInitAsync(Tuto.LemonWayAPI.MoneyInMbwayInitRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInMbwayInitResponse> MoneyInMbwayInitAsync(Tuto.PayohAPI.MoneyInMbwayInitRequest request) {
             return base.Channel.MoneyInMbwayInitAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInPayTrailInitResponse MoneyInPayTrailInit(Tuto.LemonWayAPI.MoneyInPayTrailInitRequest request) {
+        public Tuto.PayohAPI.MoneyInPayTrailInitResponse MoneyInPayTrailInit(Tuto.PayohAPI.MoneyInPayTrailInitRequest request) {
             return base.Channel.MoneyInPayTrailInit(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInPayTrailInitResponse> MoneyInPayTrailInitAsync(Tuto.LemonWayAPI.MoneyInPayTrailInitRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInPayTrailInitResponse> MoneyInPayTrailInitAsync(Tuto.PayohAPI.MoneyInPayTrailInitRequest request) {
             return base.Channel.MoneyInPayTrailInitAsync(request);
         }
         
-        public Tuto.LemonWayAPI.MoneyInMobilePayInitResponse MoneyInMobilePayInit(Tuto.LemonWayAPI.MoneyInMobilePayInitRequest request) {
+        public Tuto.PayohAPI.MoneyInMobilePayInitResponse MoneyInMobilePayInit(Tuto.PayohAPI.MoneyInMobilePayInitRequest request) {
             return base.Channel.MoneyInMobilePayInit(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.MoneyInMobilePayInitResponse> MoneyInMobilePayInitAsync(Tuto.LemonWayAPI.MoneyInMobilePayInitRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.MoneyInMobilePayInitResponse> MoneyInMobilePayInitAsync(Tuto.PayohAPI.MoneyInMobilePayInitRequest request) {
             return base.Channel.MoneyInMobilePayInitAsync(request);
         }
         
-        public Tuto.LemonWayAPI.CreatePaymentFormResponse CreatePaymentForm(Tuto.LemonWayAPI.CreatePaymentFormRequest request) {
+        public Tuto.PayohAPI.CreatePaymentFormResponse CreatePaymentForm(Tuto.PayohAPI.CreatePaymentFormRequest request) {
             return base.Channel.CreatePaymentForm(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.CreatePaymentFormResponse> CreatePaymentFormAsync(Tuto.LemonWayAPI.CreatePaymentFormRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.CreatePaymentFormResponse> CreatePaymentFormAsync(Tuto.PayohAPI.CreatePaymentFormRequest request) {
             return base.Channel.CreatePaymentFormAsync(request);
         }
         
-        public Tuto.LemonWayAPI.DisablePaymentFormResponse DisablePaymentForm(Tuto.LemonWayAPI.DisablePaymentFormRequest request) {
+        public Tuto.PayohAPI.DisablePaymentFormResponse DisablePaymentForm(Tuto.PayohAPI.DisablePaymentFormRequest request) {
             return base.Channel.DisablePaymentForm(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.DisablePaymentFormResponse> DisablePaymentFormAsync(Tuto.LemonWayAPI.DisablePaymentFormRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.DisablePaymentFormResponse> DisablePaymentFormAsync(Tuto.PayohAPI.DisablePaymentFormRequest request) {
             return base.Channel.DisablePaymentFormAsync(request);
         }
         
-        public Tuto.LemonWayAPI.GetCompletedPaymentFormResponse GetCompletedPaymentForm(Tuto.LemonWayAPI.GetCompletedPaymentFormRequest request) {
+        public Tuto.PayohAPI.GetCompletedPaymentFormResponse GetCompletedPaymentForm(Tuto.PayohAPI.GetCompletedPaymentFormRequest request) {
             return base.Channel.GetCompletedPaymentForm(request);
         }
         
-        public System.Threading.Tasks.Task<Tuto.LemonWayAPI.GetCompletedPaymentFormResponse> GetCompletedPaymentFormAsync(Tuto.LemonWayAPI.GetCompletedPaymentFormRequest request) {
+        public System.Threading.Tasks.Task<Tuto.PayohAPI.GetCompletedPaymentFormResponse> GetCompletedPaymentFormAsync(Tuto.PayohAPI.GetCompletedPaymentFormRequest request) {
             return base.Channel.GetCompletedPaymentFormAsync(request);
         }
     }

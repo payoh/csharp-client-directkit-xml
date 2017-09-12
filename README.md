@@ -1,6 +1,6 @@
 # c-sharp-client-directkit-xml
-
-This is an example of consuming [LemonWay API XML WebService](http://documentation.lemonway.fr/api-en) using C#.
+en
+This is an example of consuming [Payoh API XML WebService](https://payoh.me/documentazione/api) using C#.
 
 Instructions:
 
@@ -10,5 +10,5 @@ Instructions:
  4. **Note**:
   - Please make sure that you use **DirectkitXML**, not Directkit or DirectkitJSON (the URL should finish with **_directkitxml/Service.asmx_**).
   - If you have an error _403 Forbidden_, you have to contact Lemonway support to whitelist your IP address.
-  - The LemonWayAPI reference may be not up-to-date in this repository. You have to follow the tutorial above to update the service reference.
+  - The PayohAPI reference may be not up-to-date in this repository. You have to follow the tutorial above to update the service reference.
  5. Now it's your turn to play with other methods.

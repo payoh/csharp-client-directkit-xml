@@ -13,9 +13,9 @@ namespace Tuto
 
         static void GetWalletDetailsExample(string wallet)
         {
-            LemonWayAPI.Service_mb_xmlSoapClient soapClient = new LemonWayAPI.Service_mb_xmlSoapClient();
+            PayohAPI.Service_mb_xmlSoapClient soapClient = new PayohAPI.Service_mb_xmlSoapClient();
 
-            var request = new LemonWayAPI.GetWalletDetailsRequest(); // Method Name + "Request"
+            var request = new PayohAPI.GetWalletDetailsRequest(); // Method Name + "Request"
 
             // Bind parameters
             request.wlLogin     = wlLogin;
@@ -104,9 +104,9 @@ namespace Tuto
 
         static void GetWalletTransHistoryExample(string wallet)
         {
-            LemonWayAPI.Service_mb_xmlSoapClient soapClient = new LemonWayAPI.Service_mb_xmlSoapClient();
+            PayohAPI.Service_mb_xmlSoapClient soapClient = new PayohAPI.Service_mb_xmlSoapClient();
 
-            var request = new LemonWayAPI.GetWalletTransHistoryRequest(); // Method Name + "Request"
+            var request = new PayohAPI.GetWalletTransHistoryRequest(); // Method Name + "Request"
 
             // Bind parameters
             request.wlLogin     = wlLogin;
